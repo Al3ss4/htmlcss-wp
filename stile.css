@@ -6,10 +6,30 @@
 .container{
     width: 50%;
     margin: auto;
-    background-color:rgb(255, 143, 143);
-    height: 50px;
     margin-bottom: 18px;
     margin-top: 10px;
+}
+.logo{
+    height: 40px;
+}
+.indirizzo{
+    padding-left: 0px;
+}
+.indirizzo ul{
+    margin-top: 10px;
+    font-size: 0px;
+}
+.indirizzo li{
+    list-style-type: none;
+    display: inline-block;
+    padding-top: 5px;
+    padding-left: 0px;
+    padding-right: 10px;
+    font-size: 13px;
+}
+.indirizzo li a{
+    text-decoration: none;
+    color: grey;
 }
 .container1{
     width: 50%;
