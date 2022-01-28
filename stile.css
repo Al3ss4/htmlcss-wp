@@ -40,7 +40,8 @@
 .sfondo{
     background-image: url("img/banner.jpg");
     width: 100%;
-    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: 100%;
     border-radius: 20px;
 }
@@ -63,20 +64,25 @@
 .container2{
     width: 50%;
     margin: auto;
-    background-color:rgb(126, 206, 252);
     margin-bottom: 5px;
-    padding-top: 50px;
-    height: 600px;
 }
 .clearfix:after {
     content: "";
     clear: both;
     display: table;
 }
+.titolo1{
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+.testo1{
+    text-decoration: none;
+    color: grey;
+}
 .inner-float1{
     float: left;
-    width: 19%;
-    margin-right: 1%;
+    width: 18%;
+    margin-right: 2%;
 }
 .overlay1{
     background-color:rgba(0, 0, 0, 0.2);
@@ -84,17 +90,23 @@
     border-radius: 10px;
     width: 100%;
 }
+.titolo2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
 .img-1{
     background-image: url("img/img-1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 150px;
     border-radius: 10px;
+    background-position: center;
 }
 .inner-float2{
     float: left; 
     width: 60%;
-    margin-right: 1%;
+    margin-right: 2%;
 }
 .banner-2{
     background-repeat: no-repeat;
@@ -102,15 +114,17 @@
     background-image: url("img/banner-2.jpg");
     height: 150px;
     border-radius: 10px;
+    background-position: center;
 }
 .inner-float3{
     float: left;
-    width: 19%;
+    width: 18%;
 }
 .img-3{
     background-image: url("img/img-3.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     height: 150px;
     border-radius: 10px;
 }
@@ -120,9 +134,8 @@
 .container3{
     width: 50%;
     margin: auto;
-    background-color:rgb(221, 0, 129);
-    height: 20px;
-}
+    text-align: center;
+    }
 .debug .container{
     border: 2px dashed red;
     height: 250px;
